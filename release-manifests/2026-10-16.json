@@ -1,0 +1,191 @@
+{
+  "issueDate": "2026-10-16",
+  "assets": [
+    {
+      "sourcePath": "docs/media/2026-10-16/newsletter.md",
+      "name": "2026-10-16-newsletter.md",
+      "sha256": "0f13c7eb563cb39e7e0936537416fde95ab006fe8af43c40c56d4bcfeb85d353",
+      "bytes": 3996
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/graphics/newsletter-hero.png",
+      "name": "2026-10-16-newsletter-hero.png",
+      "sha256": "fcc7e31b7b7d471bdd7fe383608e5de5a22608c0b0d72d9f490763042f3c2846",
+      "bytes": 58701
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/graphics/social-preview.png",
+      "name": "2026-10-16-social-preview.png",
+      "sha256": "10e19ae82dbc1954ff68252a145aa3dfa5ddd3d7133fe2e054d556d7b813b2d9",
+      "bytes": 82922
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-1/video.mp4",
+      "name": "sr-2026-10-16-day-1.mp4",
+      "sha256": "e18ed546c325e86942102db210010f89963e58c983bc4613a036906410c91dd7",
+      "bytes": 1026123
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-1/caption.txt",
+      "name": "sr-2026-10-16-day-1-caption.txt",
+      "sha256": "0186df8c5708545296eb2b2c54ac59e9c14fb256f64de19d82e3abb060aeefda",
+      "bytes": 212
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-1/thumbnail.png",
+      "name": "sr-2026-10-16-day-1-thumbnail.png",
+      "sha256": "a88aa6fe6908240de17dd9fd272151ca39fe0a05bf5fe48acc9250ab462856da",
+      "bytes": 71622
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-1/captions.srt",
+      "name": "sr-2026-10-16-day-1-captions.srt",
+      "sha256": "628448753e7980b196151307f81191d8106b50bcfc06f5cb3a1d66c70f3dcc0b",
+      "bytes": 1168
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-2/video.mp4",
+      "name": "sr-2026-10-16-day-2.mp4",
+      "sha256": "1ae990e76c222ef43b287bc582da91034ac3c38702d3cc3ed4c9edd57135a444",
+      "bytes": 1079514
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-2/caption.txt",
+      "name": "sr-2026-10-16-day-2-caption.txt",
+      "sha256": "05a07a42783f7a3c0ff38ea6972e94bd6cc0d203eb082456c0dbc9eacaf88204",
+      "bytes": 223
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-2/thumbnail.png",
+      "name": "sr-2026-10-16-day-2-thumbnail.png",
+      "sha256": "09c84d989340dc10565aa66f8e6a6a9731868776743804a021d8671f9a43e6dc",
+      "bytes": 68305
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-2/captions.srt",
+      "name": "sr-2026-10-16-day-2-captions.srt",
+      "sha256": "af6392691c3cd1fa6e842ea13656c45ef04da802496812a8c6a9f4c6ed08ff62",
+      "bytes": 1238
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-3/video.mp4",
+      "name": "sr-2026-10-16-day-3.mp4",
+      "sha256": "f0d31288d69c465fa7ed705c96bb001c9a0ebb09cbdb570be2e5fea71aae5980",
+      "bytes": 918601
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-3/caption.txt",
+      "name": "sr-2026-10-16-day-3-caption.txt",
+      "sha256": "4c667592c16e1264c400c31de2b8c4bc87adc248c606bcb92deea1c5ffffa3d5",
+      "bytes": 229
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-3/thumbnail.png",
+      "name": "sr-2026-10-16-day-3-thumbnail.png",
+      "sha256": "8962449491d2a20679fd74002830f02fcb949a1110f286b0e67250a156f197af",
+      "bytes": 68646
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-3/captions.srt",
+      "name": "sr-2026-10-16-day-3-captions.srt",
+      "sha256": "1d342ef4285bae65a78b29cbbd7602bd0c90977795db9975392042d964d61de2",
+      "bytes": 1186
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-4/video.mp4",
+      "name": "sr-2026-10-16-day-4.mp4",
+      "sha256": "3ecbb18e4f6ffc3287a3fc3f04af410e8eb96332f31cdccbe0bde413bc20d266",
+      "bytes": 936761
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-4/caption.txt",
+      "name": "sr-2026-10-16-day-4-caption.txt",
+      "sha256": "c6c4214651a003458eb8312c8a1b28d7506d362fecc682b2c9fd575a428f975b",
+      "bytes": 234
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-4/thumbnail.png",
+      "name": "sr-2026-10-16-day-4-thumbnail.png",
+      "sha256": "8f8a33581689e89f4b0f19b93db0b5a02260a61db702a04ae07a00deff333630",
+      "bytes": 68398
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-4/captions.srt",
+      "name": "sr-2026-10-16-day-4-captions.srt",
+      "sha256": "459fba812474cb97e8aa65a7ead38f1ce521ecb22614b4c0da30ac5606779abc",
+      "bytes": 1194
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-5/video.mp4",
+      "name": "sr-2026-10-16-day-5.mp4",
+      "sha256": "8c0ce0c917f0821d97901d66c38ebe3357a423b6fa8bc30f03ab5eceff828756",
+      "bytes": 1089619
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-5/caption.txt",
+      "name": "sr-2026-10-16-day-5-caption.txt",
+      "sha256": "203a079881bafb953092e3d3be8b9710aeeeb8e996b60e0ed04bfc7e1229d4b7",
+      "bytes": 224
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-5/thumbnail.png",
+      "name": "sr-2026-10-16-day-5-thumbnail.png",
+      "sha256": "0b24c6f4cd244bddcb20473a5c4d8a8a9b5d1e2fa1a303a85fe325f63832f001",
+      "bytes": 66384
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-5/captions.srt",
+      "name": "sr-2026-10-16-day-5-captions.srt",
+      "sha256": "af2a29c0e45f7ac624840eba32b3cfb764143867651e915efe62ad1492507440",
+      "bytes": 1248
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-6/video.mp4",
+      "name": "sr-2026-10-16-day-6.mp4",
+      "sha256": "821b55fecb77fa69ee9dfb4edc002565ca6ff0fc1382cce88bbce31cbda9a84c",
+      "bytes": 995642
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-6/caption.txt",
+      "name": "sr-2026-10-16-day-6-caption.txt",
+      "sha256": "0fed9ccff0a8a3df247aa3a5ce10cfb84be03ab387a66243b5dffc479a86bea3",
+      "bytes": 230
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-6/thumbnail.png",
+      "name": "sr-2026-10-16-day-6-thumbnail.png",
+      "sha256": "fe017c20dfd49f01977400f2920302e09e0626d7118bca3ecf6e5585c85a2f60",
+      "bytes": 67313
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-6/captions.srt",
+      "name": "sr-2026-10-16-day-6-captions.srt",
+      "sha256": "5a36ac4e6d2342b1093e282f833dabb6dbee4d738103029bbc00d13867591347",
+      "bytes": 1229
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-7/video.mp4",
+      "name": "sr-2026-10-16-day-7.mp4",
+      "sha256": "6b85c5494f83906ded5ebf5b9480b13068b27049d77b00c8204a0b86ffcc78b6",
+      "bytes": 994017
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-7/caption.txt",
+      "name": "sr-2026-10-16-day-7-caption.txt",
+      "sha256": "55129f6182e9a7bdffd0b097dae289928f8c66d3f169163311f62f0431aaa845",
+      "bytes": 224
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-7/thumbnail.png",
+      "name": "sr-2026-10-16-day-7-thumbnail.png",
+      "sha256": "c65ada5ccd042dfd27961b2bc1eeebd03a384b3bda64c9eb191f23a8cc169598",
+      "bytes": 65261
+    },
+    {
+      "sourcePath": "docs/media/2026-10-16/videos/sr-2026-10-16-day-7/captions.srt",
+      "name": "sr-2026-10-16-day-7-captions.srt",
+      "sha256": "b7793a732695e58f60bcd21b31c809ab30e565c529e5165211095f58c776c5a8",
+      "bytes": 1229
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+name: Audited educational media release
+on:
+  push:
+    tags:
+      - '20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]'
+  workflow_dispatch:
+    inputs:
+      issue_date:
+        description: Existing audited date to verify or release
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: media-release-${{ inputs.issue_date || github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Validate public allowlist and create immutable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_DATE: ${{ inputs.issue_date || github.ref_name }}
+          GH_REPO: SAIS-Studios/silicon-recess-media
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,re,shutil,subprocess,tempfile
+          from pathlib import Path
+          issue=os.environ['ISSUE_DATE']
+          assert re.fullmatch(r'\d{4}-\d{2}-\d{2}',issue),'Invalid release date'
+          repository=Path.cwd().resolve()
+          packet=json.loads((repository/'release-manifests'/f'{issue}.json').read_text())
+          assert set(packet)=={'issueDate','assets'} and packet['issueDate']==issue
+          assert 7<=len(packet['assets'])<=40
+          assets=[];names=set();videos=0
+          with tempfile.TemporaryDirectory() as tmp:
+              upload=Path(tmp)/'upload';upload.mkdir()
+              for item in packet['assets']:
+                  assert set(item)=={'sourcePath','name','sha256','bytes'}
+                  name=item['name'];source=item['sourcePath']
+                  assert re.fullmatch(r'[a-zA-Z0-9_.-]{1,200}',name) and name not in names
+                  names.add(name)
+                  prefix='docs/media/'+issue+'/'
+                  allowed=r'(newsletter\.md|newsletter-body\.html|graphics/(newsletter-hero|social-preview)\.png|videos/[a-z0-9]+(?:-[a-z0-9]+)*/(video\.mp4|caption\.txt|captions\.srt|thumbnail\.png))'
+                  assert source.startswith(prefix) and re.fullmatch(allowed,source[len(prefix):])
+                  path=repository/source
+                  assert not any(p.is_symlink() for p in (path,*path.parents)) and path.resolve().is_relative_to(repository)
+                  assert isinstance(item['bytes'],int) and 0<item['bytes']<=64*1024**2
+                  data=path.read_bytes()
+                  assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+                  if path.name=='video.mp4':
+                      videos+=1
+                      assert name==path.parent.name+'.mp4'
+                  (upload/name).write_bytes(data)
+                  assets.append(str(upload/name))
+              assert videos==7,'Seven audited video files required'
+              existing=subprocess.run(['gh','release','view',issue,'--json','assets,isDraft'],capture_output=True,text=True)
+              if existing.returncode==0:
+                  release=json.loads(existing.stdout)
+                  assert release['isDraft'] is False
+                  assert {a['name'] for a in release['assets']}==names,'Existing release differs; never clobber'
+                  download=Path(tmp)/'download';download.mkdir()
+                  completed=subprocess.run(['gh','release','download',issue,'--dir',str(download)],capture_output=True)
+                  assert completed.returncode==0,'Existing release download unavailable'
+                  for item in packet['assets']:
+                      data=(download/item['name']).read_bytes()
+                      assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256'],'Immutable release bytes differ'
+                  print('Existing release verified; no assets uploaded or replaced.')
+              else:
+                  # Confirm absence through API; auth/network failures never justify a second mutation.
+                  absence=subprocess.run(['gh','api',f'repos/{os.environ["GH_REPO"]}/releases/tags/{issue}'],capture_output=True,text=True)
+                  try:error=json.loads(absence.stdout)
+                  except ValueError:error={}
+                  assert absence.returncode!=0 and error.get('status')=='404','Release absence not established'
+                  notes=Path(tmp)/'notes.md';notes.write_text('Free Silicon Recess educational media. Research, writing and narration are AI-assisted.\n\nhttps://siliconrecess.beehiiv.com/subscribe\n')
+                  create=subprocess.run(['gh','release','create',issue,*assets,'--verify-tag','--title','Silicon Recess '+issue+' free media','--notes-file',str(notes)],capture_output=True)
+                  assert create.returncode==0,'Release creation outcome unknown; inspect before retry'
+                  print('Audited public release created without replacing existing assets.')
+          PY
