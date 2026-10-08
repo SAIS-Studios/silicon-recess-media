@@ -1,0 +1,71 @@
+1
+00:00:00,240 --> 00:00:00,800
+Here is a rule to
+
+2
+00:00:00,800 --> 00:00:02,520
+consider for classroom help tools,
+
+3
+00:00:02,860 --> 00:00:05,200
+AI tools included. Attempt first,
+
+4
+00:00:05,560 --> 00:00:07,580
+then ask. Khan Academy reports
+
+5
+00:00:07,580 --> 00:00:08,960
+that before a student submits
+
+6
+00:00:08,960 --> 00:00:10,500
+an answer, its tutor tool
+
+7
+00:00:10,500 --> 00:00:11,720
+holds back the answer and
+
+8
+00:00:11,880 --> 00:00:14,040
+offers questions and hints. After
+
+9
+00:00:14,040 --> 00:00:15,620
+an incorrect answer, the post
+
+10
+00:00:15,620 --> 00:00:16,740
+says the tool can review
+
+11
+00:00:16,740 --> 00:00:18,560
+the mistake. Your school could
+
+12
+00:00:18,560 --> 00:00:20,560
+propose a similar order. Try
+
+13
+00:00:20,560 --> 00:00:22,200
+the problem. Ask for a
+
+14
+00:00:22,200 --> 00:00:24,100
+hint if stuck. This is
+
+15
+00:00:24,100 --> 00:00:25,600
+a proposed norm, not a
+
+16
+00:00:25,820 --> 00:00:27,760
+tested result. Get the free
+
+17
+00:00:27,760 --> 00:00:29,480
+weekly school AI guide at
+
+18
+00:00:29,480 --> 00:00:30,740
+the address on screen.

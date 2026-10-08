@@ -1,0 +1,75 @@
+1
+00:00:00,140 --> 00:00:00,820
+Here is a script you
+
+2
+00:00:00,840 --> 00:00:02,500
+could adapt for students. In
+
+3
+00:00:02,500 --> 00:00:04,020
+this class, AI help comes
+
+4
+00:00:04,020 --> 00:00:06,180
+after your own attempt. Try
+
+5
+00:00:06,180 --> 00:00:07,380
+the problem and show your
+
+6
+00:00:07,380 --> 00:00:09,210
+work. If you are stuck,
+
+7
+00:00:09,840 --> 00:00:10,960
+ask for a hint, not
+
+8
+00:00:10,960 --> 00:00:12,760
+the answer. After you turn
+
+9
+00:00:12,760 --> 00:00:13,800
+in your try, you may
+
+10
+00:00:13,800 --> 00:00:15,740
+ask what went wrong, then
+
+11
+00:00:15,740 --> 00:00:17,200
+do a similar problem yourself.
+
+12
+00:00:17,960 --> 00:00:19,180
+That is original draft language
+
+13
+00:00:19,180 --> 00:00:20,720
+for staff discussion, not a
+
+14
+00:00:20,720 --> 00:00:22,480
+tested rule. The hint first
+
+15
+00:00:22,480 --> 00:00:23,600
+idea draws on a Khan
+
+16
+00:00:23,600 --> 00:00:25,020
+Academy post about its own
+
+17
+00:00:25,020 --> 00:00:26,760
+tool. Get the free weekly
+
+18
+00:00:26,780 --> 00:00:28,220
+school AI guide at the
+
+19
+00:00:28,220 --> 00:00:29,330
+address on screen.
