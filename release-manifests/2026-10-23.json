@@ -1,0 +1,209 @@
+{
+  "issueDate": "2026-10-23",
+  "assets": [
+    {
+      "sourcePath": "docs/media/2026-10-23/newsletter.md",
+      "name": "2026-10-23-newsletter.md",
+      "sha256": "7fdfb50c9f30fa779e77de857c616a8c4e231107376b1e6a1cf4456530e85e2b",
+      "bytes": 3611
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/newsletter-body.html",
+      "name": "2026-10-23-newsletter-body.html",
+      "sha256": "45c4ea7e44d7855418987ff97ef6a20abd9bbff2a6d5fcbbb33bb68d7aeb1fb2",
+      "bytes": 3523
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/graphics/newsletter-hero.png",
+      "name": "2026-10-23-newsletter-hero.png",
+      "sha256": "5e692283cc7b829532238c8f68aa75339ceadba8fd130013edf3f3dfe5229709",
+      "bytes": 53657
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/graphics/social-preview.png",
+      "name": "2026-10-23-social-preview.png",
+      "sha256": "27564edff1eb26e8657a684fdea57d91485dc07de244c47686cd605f8f764fb6",
+      "bytes": 74229
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-1/video.mp4",
+      "name": "sr-2026-10-23-day-1.mp4",
+      "sha256": "d25581278fa9da81516577c9b4fb1afd3ae8cc2508293aa956b19fe32788122e",
+      "bytes": 1024223
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-1/caption.txt",
+      "name": "sr-2026-10-23-day-1-caption.txt",
+      "sha256": "fbb45297d2e4f2cd857e3affd144109a8ffdbbe4269d13ea93c2e4106eeb6271",
+      "bytes": 192
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-1/thumbnail.png",
+      "name": "sr-2026-10-23-day-1-thumbnail.png",
+      "sha256": "96641f396482d1b4c53d848a84ef6b125032104f265887ddb00377a2a8cc2988",
+      "bytes": 74206
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-1/captions.srt",
+      "name": "sr-2026-10-23-day-1-captions.srt",
+      "sha256": "8c8b0deafabca0b2a51039b5f670e682a237505fd320aec8e6fe366fac1a9396",
+      "bytes": 1203
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-2/video.mp4",
+      "name": "sr-2026-10-23-day-2.mp4",
+      "sha256": "f776af20d4b9e7599d68663bc4a4f5a97644757dac6692455f387084223702c4",
+      "bytes": 1067026
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-2/caption.txt",
+      "name": "sr-2026-10-23-day-2-caption.txt",
+      "sha256": "0d0cf09ee93a4413de380d78fcad265bbd39c2506f84bf180d87eef5349af70d",
+      "bytes": 188
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-2/thumbnail.png",
+      "name": "sr-2026-10-23-day-2-thumbnail.png",
+      "sha256": "450583e835327ba712d768b999f3ccf01d8d2f6565f44300bcbf4fdbccf74577",
+      "bytes": 72469
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-2/captions.srt",
+      "name": "sr-2026-10-23-day-2-captions.srt",
+      "sha256": "3024112ff7d9aa80ddfa4f95217b1433132444913d89283e924234d994bebd9e",
+      "bytes": 1266
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-3/video.mp4",
+      "name": "sr-2026-10-23-day-3.mp4",
+      "sha256": "f0ac02cad372f09c790bb381a89d82362991aea640f39518c598f1bba992e8c1",
+      "bytes": 881716
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-3/caption.txt",
+      "name": "sr-2026-10-23-day-3-caption.txt",
+      "sha256": "daa628a989d5976764696aa1fbadc069ce754e8ee648ff9bd6b13199974b8c12",
+      "bytes": 184
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-3/thumbnail.png",
+      "name": "sr-2026-10-23-day-3-thumbnail.png",
+      "sha256": "52afb5eb0ddf0179e758ef7c996f788eb8666da03019e1bbf618f98163356ed7",
+      "bytes": 74736
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-3/captions.srt",
+      "name": "sr-2026-10-23-day-3-captions.srt",
+      "sha256": "aa7678a5bd6c7ee70afa83bba8288451a3091bd764f9d14c68df4361b83e78ad",
+      "bytes": 1121
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-4/video.mp4",
+      "name": "sr-2026-10-23-day-4.mp4",
+      "sha256": "66bdecb67b8362df9a4045305f9813501eac23596fe79aab23e3ac666c634661",
+      "bytes": 990879
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-4/caption.txt",
+      "name": "sr-2026-10-23-day-4-caption.txt",
+      "sha256": "95b22300029bc8b63338c5b04b59d003c289a686701d00223054d8bec6b81582",
+      "bytes": 191
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-4/thumbnail.png",
+      "name": "sr-2026-10-23-day-4-thumbnail.png",
+      "sha256": "3cd81dc9facade0738f4485634e2578811809430bb9b42d0c31ee9baee45762f",
+      "bytes": 70697
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-4/captions.srt",
+      "name": "sr-2026-10-23-day-4-captions.srt",
+      "sha256": "a660184d228db83f25b7231649a9069c5eb03418f72d9e83d17ecd4d9fb6eb4d",
+      "bytes": 1193
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-5/video.mp4",
+      "name": "sr-2026-10-23-day-5.mp4",
+      "sha256": "eebe5335cb33cfebeabc62433d506722032511c1330e5df27dae53d914286d24",
+      "bytes": 1056082
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-5/caption.txt",
+      "name": "sr-2026-10-23-day-5-caption.txt",
+      "sha256": "9e90ea8c57d6c0b6c9315c64a0395e2fc6c747d744cf0098046522b18aba0c08",
+      "bytes": 189
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-5/thumbnail.png",
+      "name": "sr-2026-10-23-day-5-thumbnail.png",
+      "sha256": "aeadc2773d2cdc17380a7cbd843776a3ebc417a31f0d2c3261f2d9b8ba2fabef",
+      "bytes": 65643
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-5/captions.srt",
+      "name": "sr-2026-10-23-day-5-captions.srt",
+      "sha256": "b3c8cda113a47777cc90eaad059877346b957f1ba3495017808be9bfc1803b74",
+      "bytes": 1237
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-6/video.mp4",
+      "name": "sr-2026-10-23-day-6.mp4",
+      "sha256": "b4669f02c24c4c315b3b8e99378e59fc2d826b0315591cd8b4c58e151b44ea8b",
+      "bytes": 1033140
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-6/caption.txt",
+      "name": "sr-2026-10-23-day-6-caption.txt",
+      "sha256": "c2e7847ec787b654bb6d2118b78d49c917d4e1b9ce408e01aaf7060b583ab9b0",
+      "bytes": 181
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-6/thumbnail.png",
+      "name": "sr-2026-10-23-day-6-thumbnail.png",
+      "sha256": "ac632dbbbb3f2d888085d13a4f5ef08cc12b669953500a8d09c705ec3f86b6ea",
+      "bytes": 65444
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-6/captions.srt",
+      "name": "sr-2026-10-23-day-6-captions.srt",
+      "sha256": "444a8d4b636fcd2d9bcc85535439261e6731cea97fdcf0dc81144eda1a7505dd",
+      "bytes": 1225
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-7/video.mp4",
+      "name": "sr-2026-10-23-day-7.mp4",
+      "sha256": "530b0047475ba65e95cc5f4842cd5383f8f7ecf6c57772e488f302cd60afe4c0",
+      "bytes": 867940
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-7/caption.txt",
+      "name": "sr-2026-10-23-day-7-caption.txt",
+      "sha256": "185cf774bcb3547bcee5f30b7c56a0b5773f689b62c52c7bcbd86f5aabd2b31e",
+      "bytes": 177
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-7/thumbnail.png",
+      "name": "sr-2026-10-23-day-7-thumbnail.png",
+      "sha256": "c9dc478f76b135240f1fec9bbf0657f53935d9780a0303b182d4623ca9d16b28",
+      "bytes": 67837
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/videos/sr-2026-10-23-day-7/captions.srt",
+      "name": "sr-2026-10-23-day-7-captions.srt",
+      "sha256": "663f43faba8da09152dcf1ffb8cd4d1c058a4403ee0b1f35407cbb8d544c12c5",
+      "bytes": 1093
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/worksheet.md",
+      "name": "2026-10-23-worksheet.md",
+      "sha256": "11541c9fd2be472faa3d657d557a9a425a5b7aba7649377a969ea2138cd48845",
+      "bytes": 1070
+    },
+    {
+      "sourcePath": "docs/media/2026-10-23/worksheet.html",
+      "name": "2026-10-23-worksheet.html",
+      "sha256": "6ef77cbaf647c1ea328f6610be668338867e5bd05b79435ccacc862341b3412c",
+      "bytes": 1747
+    }
+  ]
+}

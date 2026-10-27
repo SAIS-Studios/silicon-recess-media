@@ -1,0 +1,71 @@
+1
+00:00:00,200 --> 00:00:01,400
+Let's revisit the review idea
+
+2
+00:00:01,400 --> 00:00:03,160
+from a different side. Khan
+
+3
+00:00:03,160 --> 00:00:04,780
+Academy describes a planned feature
+
+4
+00:00:04,780 --> 00:00:06,460
+where students answer follow-up questions
+
+5
+00:00:06,460 --> 00:00:08,340
+about their reasoning. The publisher
+
+6
+00:00:08,340 --> 00:00:10,320
+says teachers receive insights from
+
+7
+00:00:10,320 --> 00:00:12,180
+those conversations. Here is the
+
+8
+00:00:12,460 --> 00:00:14,620
+proposed school question. When any
+
+9
+00:00:14,620 --> 00:00:15,900
+tool gives a written insight
+
+10
+00:00:15,900 --> 00:00:17,840
+about student reasoning, who checks
+
+11
+00:00:17,840 --> 00:00:19,760
+it against actual work? An
+
+12
+00:00:19,760 --> 00:00:21,220
+insight is a starting point,
+
+13
+00:00:21,300 --> 00:00:23,040
+not a final judgment. Ask
+
+14
+00:00:23,040 --> 00:00:24,660
+teachers to compare one insight
+
+15
+00:00:24,660 --> 00:00:25,940
+to real work before acting
+
+16
+00:00:25,940 --> 00:00:27,440
+on it. Get the free
+
+17
+00:00:27,440 --> 00:00:29,080
+weekly school AI guide at
+
+18
+00:00:29,080 --> 00:00:30,320
+the address on screen.
